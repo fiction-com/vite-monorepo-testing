@@ -1,0 +1,21 @@
+{
+  "name": "vite-monorepo-test",
+  "scripts": {
+    "serve": "yarn workspace @example/app serve"
+  },
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript": "^4.0.5",
+    "vite": "^1.0.0-rc.9",
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0"
+  },
+  "workspaces": [
+    "@workspaceA/*",
+    "@workspaceB/*"
+  ]
+}

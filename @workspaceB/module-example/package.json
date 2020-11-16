@@ -1,0 +1,12 @@
+{
+  "name": "@example/module-example",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@example/app": "^1.0.0"
+  }
+}
